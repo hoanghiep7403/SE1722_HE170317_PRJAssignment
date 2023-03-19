@@ -1,0 +1,154 @@
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    z-index: 99;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    min-height: 100%;
+    width: 100%;
+}
+.table-fit {
+  width: 1px!important;
+}
+.loading {
+    font-family: Arial;
+    font-size: 10pt;
+    border: 5px solid #67CFF5;
+    width: 200px;
+    height: 100px;
+    display: none;
+    position: fixed;
+    background-color: White;
+    z-index: 999;
+}
+
+body {
+    line-height: 22px;
+}
+
+.title_home {
+    display: block;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+h1 {
+    font-size: 30px;
+    color: #133579;
+    font-weight: bold;
+    text-align: left;
+    background: no-repeat top left;
+    padding: 10px;
+    margin-bottom: 2px;
+}
+
+h2 {
+    font-size: 28px;
+    color: #133579;
+    font-weight: bold;
+    text-align: left;
+    background: no-repeat top left;
+    padding: 10px;
+    margin-bottom: 2px;
+}
+
+h3 {
+    font-size: 25px;
+    color: #1b34b2;
+    font-weight: bold;
+    text-align: center;
+    background: no-repeat left top;
+    padding: 10px;
+    margin-bottom: 2px;
+}
+
+a {
+    color: Blue;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: #f4a460;
+        text-decoration: none;
+    }
+
+li {
+    margin-bottom: 5px;
+}
+
+table {
+    font-size: 30px;
+    background-color: #fff;
+    border-collapse: collapse;
+    width: 50%;
+}
+#loginform{
+    background-color: rgba(127,255,212, 0.5);
+}
+.col-md-6{
+    background-color: rgba(127,255,212, 0.5);
+}
+caption {
+    color: #1b34b2;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    background: no-repeat top left;
+    padding: 10px;
+    margin-bottom: 2px;
+}
+
+th {
+    border-right: 1px solid #fff;
+   
+    text-align: center;
+    padding: 2px;
+    text-transform: uppercase;
+    height: 23px;
+    background-color: #6b90da;
+    font-weight: normal;
+}
+
+tfoot {
+    padding: 2px;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 6px;
+    border-top: 6px solid #e9f7f6;
+}
+
+tr {
+    background-color: #fff;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+td {
+    padding: 5px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+
+tbody th {
+    text-align: left;
+    padding: 2px;
+}
+
+.filter {
+    font-size: 16px;
+    color: #1b34b2;
+    font-weight: bold;
+    text-align: left;
+    background: no-repeat top left;
+    padding: 10px;
+    margin-bottom: 2px;
+}
